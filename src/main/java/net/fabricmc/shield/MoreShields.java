@@ -32,10 +32,10 @@ public class MoreShields implements ModInitializer {
 	public void onInitialize() {
 
 
-		Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), WOOD_SHIELD);
-		Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), STONE_SHIELD);
-		Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), GOLD_SHIELD);
-		Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), DIAMOND_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "wood_shield"), WOOD_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "stone_shield"), STONE_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "gold_shield"), GOLD_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "diamond_shield"), DIAMOND_SHIELD);
 		Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), NETHERITE_SHIELD);
 	}
 }
