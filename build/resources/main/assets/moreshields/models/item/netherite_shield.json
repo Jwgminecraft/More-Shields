@@ -1,0 +1,14 @@
+{
+    "parent":"fabricshieldlib:item/fabric_shield",
+    "textures":{
+        "shield":"moreshields:item/netherite_shield"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "moreshields:item/netherite_shield_blocking"
+        }
+    ]
+}

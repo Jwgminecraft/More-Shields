@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "moreshields",
+  "version": "V0.1",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "More Shields",
+  "description": "This mod adds more shields to Minecraft!",
   "authors": [
-    "Me!"
+    "JWGStudios"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.shield.MoreShields"
     ]
   },
   "mixins": [
