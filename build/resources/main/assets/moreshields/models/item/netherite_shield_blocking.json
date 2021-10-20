@@ -1,3 +1,6 @@
 {
-  "parent": "fabricshieldlib:item/fabric_shield_blocking"
+  "parent": "fabricshieldlib:item/fabric_shield_blocking",
+  "textures":{
+        "shield":"moreshields:item/netherite_shield"
+    }
 }

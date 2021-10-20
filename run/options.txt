@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -21,19 +21,19 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 mouseSensitivity:0.5
 fov:0.0
-screenEffectScale:1.0
+screenEffectScale:0.0
 fovEffectScale:1.0
-gamma:0.0
-renderDistance:4
-entityDistanceScaling:1.0
+gamma:1.0
+renderDistance:2
+entityDistanceScaling:0.5
 guiScale:0
-particles:0
+particles:2
 maxFps:120
 difficulty:2
-graphicsMode:1
-ao:2
-biomeBlendRadius:2
-renderClouds:true
+graphicsMode:0
+ao:0
+biomeBlendRadius:0
+renderClouds:false
 resourcePacks:["Fabric Mods"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -44,7 +44,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -54,7 +54,7 @@ chatDelay:0.0
 chatHeightUnfocused:0.44366195797920227
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:4
+mipmapLevels:0
 useNativeTransport:true
 mainHand:right
 attackIndicator:1

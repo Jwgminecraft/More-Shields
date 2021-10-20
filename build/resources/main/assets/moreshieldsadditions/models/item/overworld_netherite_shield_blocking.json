@@ -1,0 +1,6 @@
+{
+  "parent": "fabricshieldlib:item/fabric_shield_blocking",
+  "textures":{
+        "shield":"moreshieldsadditions:item/overworld_netherite_shield"
+    }
+}

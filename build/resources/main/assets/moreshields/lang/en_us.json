@@ -1,0 +1,16 @@
+{
+	"item.moreshields.wood_shield":"Wooden Shield",
+	"item.moreshields.wood_shield":"Stone Shield",
+	"item.minecraft.shield":"Iron Shield",
+	"item.moreshields.gold_shield":"Golden Shield",
+	"item.moreshields.diamond_shield":"Diamond Shield",
+	"item.moreshields.netherite_shield":"Netherite Shield",
+	"itemGroup.moreshields.shields":"More Shields: Vanilla",
+	
+	
+	"item.moreshieldsadditions.end_netherite_shield":"End Netherite Shield",
+	"item.moreshieldsadditions.nether_netherite_shield":"Nether Netherite Shield",
+	"item.moreshieldsadditions.overworld_netherite_shield":"Overworld Netherite Shield",
+	"itemGroup.moreshieldsadditions.specialised_netherite_shields":"More Shields: Specialised Netherite"
+	
+}
