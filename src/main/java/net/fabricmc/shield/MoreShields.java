@@ -23,10 +23,10 @@ public class MoreShields implements ModInitializer {
 			.icon(() -> new ItemStack(Items.WOODEN_AXE))
 			.build();
 
-	public static final Item WOOD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.NETHERITE_INGOT);
-	public static final Item STONE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.NETHERITE_INGOT);
-	public static final Item GOLD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.NETHERITE_INGOT);
-	public static final Item DIAMOND_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.NETHERITE_INGOT);
+	public static final Item WOOD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.OAK_PLANKS);
+	public static final Item STONE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.COBBLESTONE);
+	public static final Item GOLD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.IRON_INGOT);
+	public static final Item DIAMOND_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.DIAMOND);
 	public static final Item NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(ItemGroup.COMBAT), 10, 13, Items.NETHERITE_INGOT);
 	@Override
 	public void onInitialize() {
