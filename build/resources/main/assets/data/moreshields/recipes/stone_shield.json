@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "moreshields:stone_shield",
+    "count": 1
+  }
+}

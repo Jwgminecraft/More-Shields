@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+        "base": {
+            "item": "moreshields:diamond_shield"
+            },
+        "addition": {
+            "item": "minecraft:netherite_ingot"
+            },
+  "result": {
+    "item": "moreshields:netherite_shield",
+    "count": 1
+  }
+}
