@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+        "base": {
+            "item": "moreshields:netherite_shield"
+            },
+        "addition": {
+            "item": "specialnetherite:overworld_crystal"
+            },
+  "result": {
+    "item": "moreshieldsadditions:overworld_netherite_shield",
+    "count": 1
+  }
+}

@@ -31,13 +31,11 @@ public class MoreShields implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		if (FabricLoader.getInstance().isModLoaded("cae1c5aa-2eff-47df-8539-181b220dcb68") == false) {
-			Registry.register(Registry.ITEM, new Identifier("moreshields", "wood_shield"), WOOD_SHIELD);
-			Registry.register(Registry.ITEM, new Identifier("moreshields", "stone_shield"), STONE_SHIELD);
-			Registry.register(Registry.ITEM, new Identifier("moreshields", "gold_shield"), GOLD_SHIELD);
-			Registry.register(Registry.ITEM, new Identifier("moreshields", "diamond_shield"), DIAMOND_SHIELD);
-			Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), NETHERITE_SHIELD);
-		}
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "wood_shield"), WOOD_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "stone_shield"), STONE_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "gold_shield"), GOLD_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "diamond_shield"), DIAMOND_SHIELD);
+		Registry.register(Registry.ITEM, new Identifier("moreshields", "netherite_shield"), NETHERITE_SHIELD);
 		if (FabricLoader.getInstance().isModLoaded("specialnetherite") == true) {
 			 final ItemGroup MORE_SHIELDS_SPECIALNETHERITE = FabricItemGroupBuilder.create(
 							new Identifier("moreshieldsadditions", "specialised_netherite_shields"))

@@ -1,16 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "WRW",
+    "WWW",
     "WWW",
     " W "
   ],
   "key": {
     "W": {
       "tag": "minecraft:planks"
-    },
-    "R": {
-      "item": "minecraft:planks"
     }
   },
   "result": {
