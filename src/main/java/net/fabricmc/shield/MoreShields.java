@@ -21,11 +21,11 @@ public class MoreShields implements ModInitializer {
 			.icon(() -> new ItemStack(Items.SHIELD))
 			.build();
 
-	public static final Item WOOD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(250).group(MORE_SHIELDS), 10, 13, Items.OAK_PLANKS);
-	public static final Item STONE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(750).group(MORE_SHIELDS), 10, 13, Items.COBBLESTONE);
-	public static final Item GOLD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(500).group(MORE_SHIELDS), 10, 13, Items.IRON_INGOT);
-	public static final Item DIAMOND_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2000).group(MORE_SHIELDS), 10, 13, Items.DIAMOND);
-	public static final Item NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(MORE_SHIELDS), 10, 13, Items.NETHERITE_INGOT);
+	public static final Item WOOD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(150).group(MORE_SHIELDS), 10, 13, Items.OAK_PLANKS);
+	public static final Item STONE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(250).group(MORE_SHIELDS), 10, 13, Items.COBBLESTONE);
+	public static final Item GOLD_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(200).group(MORE_SHIELDS), 10, 13, Items.IRON_INGOT);
+	public static final Item DIAMOND_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(1000).group(MORE_SHIELDS), 10, 13, Items.DIAMOND);
+	public static final Item NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(1500).group(MORE_SHIELDS), 10, 13, Items.NETHERITE_INGOT);
 
 
 
@@ -41,9 +41,9 @@ public class MoreShields implements ModInitializer {
 							new Identifier("moreshieldsadditions", "specialised_netherite_shields"))
 					.icon(() -> new ItemStack(Items.SHIELD))
 					.build();
-			 final Item OVERWORLD_NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(3500).group(MORE_SHIELDS_SPECIALNETHERITE), 10, 13, Items.NETHERITE_INGOT);
-			 final Item NETHER_NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(3500).group(MORE_SHIELDS_SPECIALNETHERITE), 10, 13, Items.NETHERITE_INGOT);
-			 final Item END_NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(3500).group(MORE_SHIELDS_SPECIALNETHERITE), 10, 13, Items.NETHERITE_INGOT);
+			 final Item OVERWORLD_NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(MORE_SHIELDS_SPECIALNETHERITE), 10, 13, Items.NETHERITE_INGOT);
+			 final Item NETHER_NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(MORE_SHIELDS_SPECIALNETHERITE), 10, 13, Items.NETHERITE_INGOT);
+			 final Item END_NETHERITE_SHIELD = new FabricShieldItem(new FabricItemSettings().maxDamage(2500).group(MORE_SHIELDS_SPECIALNETHERITE), 10, 13, Items.NETHERITE_INGOT);
 			Registry.register(Registry.ITEM, new Identifier("moreshieldsadditions", "overworld_netherite_shield"), OVERWORLD_NETHERITE_SHIELD);
 			Registry.register(Registry.ITEM, new Identifier("moreshieldsadditions", "nether_netherite_shield"), NETHER_NETHERITE_SHIELD);
 			Registry.register(Registry.ITEM, new Identifier("moreshieldsadditions", "end_netherite_shield"), END_NETHERITE_SHIELD);
